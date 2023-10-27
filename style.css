@@ -1,0 +1,112 @@
+/*Part one: Perfect number checker*/
+
+.center {
+    text-align: center;
+}
+
+#result {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Gambetta', serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: PaleGoldenRod;
+    outline: none;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: palegoldenrod;
+    font-weight: bold;
+    line-height: 2em;
+    font-variant: small-caps;
+    font-feature-settings: "palt";
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    display: inline;
+    position: relative;
+  }
+
+  p{
+    color: palegoldenrod;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-family: 'Arial';
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+
+  input[type=number] {
+	width: 3em;
+	padding: 0.5em;
+	border: .2em solid #e91e629a;
+	border-radius: 1em;
+	text-align: center;
+	color: #e91e629a;
+	appearance: textfield;
+	margin: 0;
+	&::-webkit-inner-spin-button {
+		opacity: 1;
+		background: red;
+	}
+}
+
+#PerfectNum {
+    background-color: #c889ebac;
+}
+
+input[type=num] {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #e91e629a;
+	background: rgba(#e91e629a, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: #e91e629a;
+}
+
+/* Part 2: Background Color picker*/
+
+#text {
+    color: white;
+    font-size: 20px;
+}
+
+#text2{
+    color: #e0356e9a;
+
+}
+
+
+input[type=text] {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid #e91e629a;
+	background: rgba(#e91e629a, .2);
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: #e91e629a;
+}
+
+input[type=button] {
+	appearance: none;
+	border: .2em solid #e91e629a;
+	background: hsl(0 0 0/0);
+	padding: .85em 1.5em;
+	color: #e91e629a;
+	border-radius: 2em;
+	transition: 1s;
+	&:hover, &:focus, &:active {
+		background: #e91e629a;
+		color: #fff;
+	}
+}
